@@ -1,0 +1,17 @@
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-05-19T21:32:33.528Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-05-19T21:32:33.529Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-05-19T21:32:33.529Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2025-05-19T21:32:33.529Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2025-05-19T21:32:33.530Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-05-19T21:32:33.530Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-05-19T21:32:33.530Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-05-19T21:32:33.530Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-05-19T21:32:33.530Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-05-19T21:32:33.539Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-05-19T21:32:33.539Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-05-19T21:32:33.539Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-05-19T21:32:34.079Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-05-19T21:32:34.085Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"Qbox_2BA206\",\"players\"]) in 38.6455ms'","module":"DBInterface","timestamp":"2025-05-19T21:32:34.118Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 9.912ms'","module":"DBInterface","timestamp":"2025-05-19T21:32:34.128Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-05-19T21:32:34.128Z"}
